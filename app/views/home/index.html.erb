@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Button Example</title>
+
+  <%= stylesheet_link_tag "#{@style}.css", media: 'all' %>
+  <style>
+    .container {
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Home</h1>
+  <p>Osiris, veja como é o funcionamento!</p>
+
+  <!-- Botões para alterar o estilo -->
+
+<a href="/home/dark" class="btn btn-primary">Dark</a>
+<a href="/home/vapo" class="btn btn-primary">Vapo</a>
+<a href="/home/sketchy" class="btn btn-primary">sketchy</a>
+</div>
+
+<!-- Adicione o link para o Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
